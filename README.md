@@ -4,11 +4,19 @@ These codes is to analyze eIF PAR-CLIP clusters within LINE1. Initial library wa
 ## Snakefile
 This Snakefile is generated for preprocessing of raw sequencing data and map the processed sequences to L1Hs sequence.  
 Snakefile pipelines multiple commands automatically. It can be downloaded from https://snakemake.readthedocs.io/en/stable/ with detailed manuals.  
-Instructions for the programs that used in Snakefile can be found in "instructions.md". 
+Instructions for the programs that used in Snakefile can be found in "instructions.md".  
+Typical running time is ~2h for each file with normal desktop computer.
 
 ## eIF_PAR-CLIP_analysis.ipynb
 Snakefile ends up with the bam file as final output.  
-This jupyter notebook codes analyze PAR-CLIP clusters within LINE1 sequence, particularly from 5' UTR and m6A-mapped sites by using the bam files. Jupyter notebook can be installed from https://jupyter.org/. 
+This jupyter notebook codes analyze PAR-CLIP clusters within LINE1 sequence, particularly from 5' UTR and m6A-mapped sites by using the bam files. Jupyter notebook can be installed from https://jupyter.org/.  
+Typical runing time is <1h for normal desktop computer. 
+
+## Run demo
+You can run demo input file after small edition in Snakefile.
+- Samples -> ['eif3a_rep1.demo']
+- rawdata -> directory where you saved demo input file
+Expected output is bam file (eif3a_rep1.demo.bam). It will ends in <10 minutes. 
 
 ## References
 [1] Lee, A., Kranzusch, P., and Cate, J. (2015). eIF3 targets cell-proliferation messenger RNAs for translational activation or repression. Nature 522 (7554), 111-114. 

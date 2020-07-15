@@ -3,6 +3,7 @@ These codes is to analyze eIF PAR-CLIP clusters within LINE1. Initial library wa
 
 ## Snakefile
 To preprocess raw sequencing data and map the processed sequences to L1Hs sequence.
+Instructions for the programs that used in Snakefile can be found in "instruction.md". 
 
 ## eIF_PAR-CLIP_analysis.ipynb
 To analyze PAR-CLIP clusters within LINE1 sequence, particularly from 5' UTR and m6A-mapped sites. 
